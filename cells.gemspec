@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{cells}
-  s.version = "3.3.5"
+  s.version = "3.3.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nick Sutterer"]
@@ -38,7 +38,6 @@ Gem::Specification.new do |s|
      "lib/cells/rails/action_view.rb",
      "lib/cells/version.rb",
      "rails/init.rb",
-     "rails/tasks/log.rake",
      "rails_generators/cell/USAGE",
      "rails_generators/cell/cell_generator.rb",
      "rails_generators/cell/templates/cell.rb",
@@ -56,28 +55,28 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Cells are lightweight controllers for Rails and can be rendered in controllers and views, providing an elegant and fast way for encapsulation and component-orientation.}
   s.test_files = [
-    "test/rails_test.rb",
-     "test/active_helper_test.rb",
-     "test/capture_helper_test.rb",
-     "test/assertions_helper_test.rb",
-     "test/cell_generator_test.rb",
-     "test/test_helper.rb",
-     "test/support/internal_assertions_helper.rb",
-     "test/bugs_test.rb",
-     "test/render_test.rb",
-     "test/test_case_test.rb",
-     "test/cells_test.rb",
-     "test/helper_test.rb",
-     "test/caching_test.rb",
-     "test/app/controllers/cells_test_controller.rb",
+    "test/active_helper_test.rb",
      "test/app/cells/bassist_cell.rb",
-     "test/app/cells/really_module/nested_cell.rb",
      "test/app/cells/cells_test_one_cell.rb",
      "test/app/cells/cells_test_two_cell.rb",
+     "test/app/cells/really_module/nested_cell.rb",
      "test/app/cells/simple_cell.rb",
      "test/app/cells/test_cell.rb",
+     "test/app/controllers/cells_test_controller.rb",
      "test/app/helpers/application_helper.rb",
-     "test/app/helpers/helper_using_cell_helper.rb"
+     "test/app/helpers/helper_using_cell_helper.rb",
+     "test/assertions_helper_test.rb",
+     "test/bugs_test.rb",
+     "test/caching_test.rb",
+     "test/capture_helper_test.rb",
+     "test/cell_generator_test.rb",
+     "test/cells_test.rb",
+     "test/helper_test.rb",
+     "test/rails_test.rb",
+     "test/render_test.rb",
+     "test/support/internal_assertions_helper.rb",
+     "test/test_case_test.rb",
+     "test/test_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
